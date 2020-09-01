@@ -1,0 +1,88 @@
+/*.centro {
+    left:50%;
+    top:50%;
+    margin-left:-250px; 
+    margin-top:-250px; 
+    position:absolute;
+    width:500px; 
+    height:500px; 
+    background:#507701;
+    color:#fff;
+} RESPOSTA DA NUMERO 1 */
+
+
+.centro {
+    left:50%;
+    top:50%;
+    margin-left:-300px; 
+    margin-top:-125px; 
+    position:absolute;
+    width:600px; 
+    height:250px; 
+    background:#507701;
+    color:#fff;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+
+  /*padding: 5px; RESPOSTA 3 - criou um distanciamento da borda
+  da DIV descendo 5 px na transversal direita */
+}
+
+.esqAlto {
+    background-color: orangered;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+}
+
+.dirAlto {
+    background-color: orangered;
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    right: 0px;
+    top: 0px;
+}
+
+.dirBaixo {
+    background: orangered;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+.esqBaixo {
+    background: orangered;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+ul {
+    list-style-image: url('imagem.ico');
+    
+    float: right;
+  }
