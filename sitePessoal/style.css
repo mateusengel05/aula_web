@@ -50,6 +50,7 @@ h2 {
 #menu ul li a:hover {
     color: black;
     background:white;
+    border-radius: 5px;
 }
 
 body {
@@ -147,13 +148,42 @@ footer {
     margin-left: 1.6em;
 }
 
-.img {
+.teste {
     position: static;
     margin-left: 30em;
     margin-top: 12em;
-   
+    padding: 1em;
     
+    border-radius: 30px;
 }
+
+.img2 {
+    position: static;
+    margin-left: 1.5em;
+    margin-top: 12em;
+    padding: 1em; 
+    
+    border-radius: 30px;
+}
+
+.img3 {
+    position: static;
+    margin-left: 1.5em;
+    margin-top: 12em;
+    padding: 1em; 
+    
+    border-radius: 30px;
+}
+
+.img4 {
+    position: static;
+    margin-left: 1.5em;
+    margin-top: 12em;
+    padding: 1em; 
+    
+    border-radius: 30px;
+}
+
 
 table {
     margin-left: 23em;
