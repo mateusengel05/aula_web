@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: rgb(144,238,144);
+    display: table;
+    width: 100%;
+}
+
+#menu ul {list-style: none;}
+
+#menu ul li {display: inline;}
+
+body {
+    background-image: url(fundo.jpg);
+}
+
+h1 {
+    position: static;
+    margin-left: 10em;
+    margin-top: 5.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: inherit;
+    color: black;
+}
+
+h2 {
+    position: static;
+    margin-left: 8em;
+    margin-top: 0.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: inherit;
+    color: black;
+}
+
+#menu ul li a {
+    font: 18px verdana, arial, tahoma, sans-serif;
+    color: white;
+    background: rgb(144,238,144);
+    text-decoration: none;
+    float: left;
+    padding: 5px 10px;
+    margin-left: 1px;
+}
+
+#menu ul li a:hover {
+    color: black;
+    background:white;
+}
+
+body {
+    background-color: rgb(245, 230, 230);
+}
+
+.att {
+    background-color: rgb(144,238,144);
+    opacity: 0.7;
+    width: 100%;
+}
+
+form {
+    position: static;
+    background-color: rgb(144,238,144);
+    width: 20em;
+    height: 20em;
+    border-style: solid;
+    border-width: 0.15em;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
+    
+}
+
+legend {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: static;
+    margin-left: 5em;
+}
+
+input {
+    height: 1.35em;
+    border-style: solid;
+    border-color: lightcoral;
+    border-width: 0.1em;
+    border-radius: 4px;
+    margin-left: 0.2em;
+}
+
+textarea {
+    width: 15em;
+    height: 4.5em;
+    position: static;
+    margin-left: 0.2em;
+}
+
+button {
+    width: 10em;
+    height: 1.5em;
+    background-color: white;
+    position: static;
+    margin-left: 5em;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 30.35em;
+    background-color: rgb(144,238,144);
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+.footer {
+    color: black;
+    margin-left: 2em;
+}
+
+.curriculo {
+    position: static;
+    background-color: rgb(144,238,144);
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 24em;
+    margin-top: 2em;
+    border-style: solid;
+    border-width: 0.15em;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.ul {
+    margin-left: 5em;
+}
+
+.cur {
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 2em;
+}
+
+.c {
+    margin-left: 1.6em;
+}
+
+.img {
+    position: static;
+    margin-left: 30em;
+    margin-top: 12em;
+   
+    
+}
+
+table {
+    margin-left: 23em;
+    margin-top: -22.5em;
+    opacity: 1;
+    border-color: rgb(144,238,144);
+    
+}
