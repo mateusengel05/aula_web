@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        section {
+            border: 1px solid #000;
+            height: 100px;
+            margin: 40px;
+            width: 400px;
+        }
+        section h1 {
+            font-size: 1.2em;
+            text-align: center;
+            background-color: #990000;
+            color: #fff;
+            left: -10px;
+            padding: 5px 0;
+            position: relative;
+            width: 420px;
+        }
+        section h1::before{
+            border-color: transparent #7c0000 #7c0000 transparent;
+            border-style: solid;
+            border-width: 5px;
+            content: '';
+            left: 0;
+            position: absolute;
+            top: -10px;
+        }
+        section h1::after{
+            border-color: transparent transparent #7c0000 #7c0000;
+            border-style: solid;
+            border-width: 5px;
+            content: '';
+            right: 0;
+            position: absolute;
+            top: -10px;
+        }
+    </style>
+    <section>
+        <h1>Desenvolvimento web I</h1>
+    </section>
+</body>
+</html>
